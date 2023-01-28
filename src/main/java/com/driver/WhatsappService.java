@@ -2,19 +2,14 @@ package com.driver;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 
-import java.util.Date;
 import java.util.List;
 
 @Service
 public class WhatsappService {
 
-    @Autowired
-    WhatsappRepository whatsappRepository;
+   // @Autowired
+    WhatsappRepository whatsappRepository =new WhatsappRepository();
     //1
     public String createUser(String name, String mobile) throws Exception {
 

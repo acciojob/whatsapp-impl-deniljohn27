@@ -7,7 +7,7 @@ public class Message {
     private String content;
     private Date timestamp;
 
-    public Message(Date timestamp) {
+    public Message() {
         this.timestamp = new Date();
     }
 

@@ -76,8 +76,8 @@ public class WhatsappRepository {
         // The 'i^th' created message has message id 'i'.
         // Return the message id.
         messageId+=1;
-        Date date=new Date();
-        Message message=new Message(date);
+
+        Message message=new Message();
         return messageId;
     }
     //4

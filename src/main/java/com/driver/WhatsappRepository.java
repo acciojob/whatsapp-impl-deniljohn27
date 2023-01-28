@@ -77,7 +77,7 @@ public class WhatsappRepository {
         // Return the message id.
         messageId+=1;
 
-        Message message=new Message();
+        Message message=new Message(messageId,content);
         return messageId;
     }
     //4

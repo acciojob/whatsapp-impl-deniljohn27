@@ -5,10 +5,10 @@ import java.util.Date;
 public class Message {
     private int id;
     private String content;
-    private Date timestamp;
+    private Date timestamp =new Date();;
 
-    public Message() {
-        this.timestamp = new Date();
+    public Message(){
+
     }
 
     public int getId() {
